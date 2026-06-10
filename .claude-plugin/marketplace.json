@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "geseidl-grok",
+  "description": "Geseidl IT Solutions — xAI Grok second-opinion + Live Search plugin for Claude Code.",
+  "owner": {
+    "name": "Geseidl IT Solutions",
+    "url": "https://geseidl.ro/servicii-it"
+  },
+  "plugins": [
+    {
+      "name": "grok",
+      "description": "Independent fourth-family second opinion (xAI Grok) plus real-time Live Search over X/web with citations.",
+      "source": "./",
+      "category": "ai-integration"
+    }
+  ]
+}
